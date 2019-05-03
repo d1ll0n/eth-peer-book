@@ -1,9 +1,8 @@
 {
-  "name": "peer-book",
+  "name": "eth-peer-book",
   "version": "0.9.1",
   "description": "Peer Store for libp2p and IPFS",
   "main": "src/index.js",
-  "leadMaintainer": "Pedro Teixeira <i@pgte.me>",
   "scripts": {
     "lint": "aegir lint",
     "build": "aegir build",
@@ -18,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/libp2p/js-peer-book.git"
+    "url": "https://github.com/d1ll0n/eth-peer-book"
   },
   "pre-push": [
     "lint",
@@ -34,13 +33,13 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/libp2p/js-peer-book/issues"
+    "url": "https://github.com/d1ll0n/eth-peer-book/issues"
   },
-  "homepage": "https://github.com/libp2p/js-peer-book#readme",
+  "homepage": "https://github.com/d1ll0n/eth-peer-book#readme",
   "dependencies": {
     "bs58": "^4.0.1",
-    "peer-id": "~0.12.2",
-    "peer-info": "~0.15.1"
+    "eth-peer-id": "^0.0.2",
+    "eth-peer-info": "^0.0.2"
   },
   "devDependencies": {
     "aegir": "^18.2.2",

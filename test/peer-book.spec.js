@@ -6,7 +6,7 @@ const dirtyChai = require('dirty-chai')
 const expect = chai.expect
 chai.use(dirtyChai)
 const Multiaddr = require('multiaddr')
-const PeerInfo = require('peer-info')
+const PeerInfo = require('eth-peer-info')
 const async = require('async')
 const utils = require('./utils')
 const createPeerInfo = utils.createPeerInfo

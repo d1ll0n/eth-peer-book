@@ -1,8 +1,8 @@
 'use strict'
 
 const bs58 = require('bs58')
-const PeerId = require('peer-id')
-const PeerInfo = require('peer-info')
+const PeerId = require('eth-peer-id')
+const PeerInfo = require('eth-peer-info')
 
 function getB58Str (peer) {
   let b58Str

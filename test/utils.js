@@ -3,8 +3,8 @@
 
 const chai = require('chai')
 chai.use(require('dirty-chai'))
-const PeerInfo = require('peer-info')
-const PeerId = require('peer-id')
+const PeerInfo = require('eth-peer-info')
+const PeerId = require('eth-peer-id')
 const waterfall = require('async/waterfall')
 
 function createPeerInfo (multiaddrs, options, callback) {
