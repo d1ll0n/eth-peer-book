@@ -38,8 +38,8 @@
   "homepage": "https://github.com/d1ll0n/eth-peer-book#readme",
   "dependencies": {
     "bs58": "^4.0.1",
-    "eth-peer-id": "^0.0.2",
-    "eth-peer-info": "^0.0.2"
+    "eth-peer-id": "~0.0.2",
+    "eth-peer-info": "~0.0.2"
   },
   "devDependencies": {
     "aegir": "^18.2.2",
